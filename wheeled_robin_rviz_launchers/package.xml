@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>wheeled_robin_rviz_launchers</name>
+  <version>1.0.0</version>
+  <description>Launchers for visualizing WheeledRobin</description>
+  <maintainer email="joh.mayr@jku.at">Johannes Mayr</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/wheeled_robin_viz</url>
+  <url type="repository">https://github.com/turtlebot/wheeled_robin_viz</url>
+  <url type="bugtracker">https://github.com/turtlebot/wheeled_robin_viz/issues</url>
+  <author email="joh.mayr@jku.at">Johannes Mayr</author>
+  <author email="klemens.springer@jku.at">Klemens Springer</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>wheeled_robin_bringup</run_depend>
+</package>
